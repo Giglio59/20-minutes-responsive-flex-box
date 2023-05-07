@@ -1,0 +1,342 @@
+@font-face{
+    font-family: "Ma fonte";
+    src: url("fonts/fonts1/FontsFree-Net-RocGrotesk.ttf");}
+
+@font-face{
+    font-family: "Ma fonte2";
+    src: url("fonts/static/OpenSans-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Ma fonte3";
+    src: url("fonts/fonts1/Arial.ttf");
+    
+}
+
+*{
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(253, 254, 254);
+    padding-top: 15px;
+    
+}
+
+strong{
+    color: #2c448e;
+    font-family:"Ma fonte2";
+}
+.image{
+    display: flex;
+    /* display: inline-flex; */
+    justify-content: space-between;
+    padding-top: 7vw;
+}
+
+.Bande20minute{
+     position: relative;
+    display: block; 
+    margin-bottom: 0%;
+    left: 79vw;
+    transform: translateX(-50%);
+    background-color: #2c448e;
+    text-align: center;
+    margin-top: 1vw;
+    width: 25vw;
+    color: white;
+    font-family: "Ma fonte";
+    padding-bottom: 0%;
+  
+    
+
+}
+
+    
+
+
+.paris {
+    left: 15vw;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: #2c448e;
+    text-align: center;
+    margin-top: -8vw;
+    width: 25vw;
+    z-index: 999;
+    color: white;
+    font-family: "Ma fonte";
+}
+   
+
+.titre{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.claire{
+    width: 21%;
+    padding-right: 91%;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-top: -7%;
+    margin-left: 4vw;
+    padding-right: 8vw;
+    font-family: "Ma fonte3";
+}
+
+
+
+
+
+.img2{
+    margin-top: -10%;
+    width: 36%;
+    height: 14rem;
+    margin-left: -4%;
+    padding-bottom: 6%;
+}
+.img1{
+    margin-top: -6%;
+    width: 30%;
+    height: 11.5rem;
+}
+
+.hr3{
+    margin-left: 2%;
+    position: relative;
+    padding: 0px;
+    margin-top: 1%;
+}
+
+
+.hr1{
+    margin-right: 2%;
+    position: relative;
+    padding: 0px;
+    }
+    
+
+.date{
+    
+        
+        padding-left: 4%;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 3%;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+       
+}
+.clai{
+    font-size: 73%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    margin-right: 14rem;
+
+}
+.pub{
+      margin-top: 5rem;
+    margin-right: 1rem;
+    float: right;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    font-size: 1rem;
+}
+
+
+
+.maine{
+  background-image:  url("image/Capture.PNG");
+  width: 5em;
+  position :relative
+
+ 
+  
+}
+.bandaux{
+    margin-bottom: -2vw; 
+    margin-left: 0px;
+    
+    float: right;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    
+    margin-top: -2vw;
+}
+.Bandaux{
+    margin-left: 0px;
+    float: right;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    margin-right: 22px;
+}
+.bandecouple{
+    font-size: 19px;
+    margin-left: 1032px;
+    float: left;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    margin-top: -221px;
+}
+
+
+.retraite{
+    padding-left: 4%;
+    font-size: 120%;
+    font-family: "Ma fonte3";
+    margin-top: 1.4em;
+    font-weight: 400;
+    margin-bottom: 3%;
+
+}
+.retraites{
+    width: 88%;
+    padding-left: 5%;
+    font-size: 120%;
+    font-family: "Ma fonte3";
+    margin-top: -5%;
+    font-weight: 400;
+}
+
+.bande{
+    width: 1vw;
+}
+
+.hr4{
+    margin-left: 60px;
+}
+.hr5 {
+    
+        margin-top: 6.5em;
+        margin-right: 26%;
+        margin-left: 1%;
+}
+
+.hr2{
+    
+    margin-top: 0%;
+    padding: 0px;
+    margin-right: -5%;
+    margin-left: -2%;
+    margin-bottom: 0%;
+
+}
+
+.Tele{
+    margin-left: 5%;
+    font-weight: 400;
+    font-size: 120%;
+    padding-left: 0px;
+    font-family: "Ma fonte3";
+    margin-top: 0px;
+}
+
+    .couple1{
+    /*    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;*/
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+}
+    
+
+.couple{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.calin{
+    margin-right: 2%;
+    width: 70%;
+}
+.calin2{
+    margin-top: 54px;
+    margin-bottom: -82px;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    margin-left: 146px;
+    font-family: "Ma fonte3";
+    font-weight: bold;
+}
+
+
+
+
+.barre{
+    margin-left: -2%;
+    padding-right: -5%;
+    /* margin-right: -12%; */
+    position: absolute;
+    width: 2%;
+    height: 65rem;
+    margin-top: -3%;
+}
+
+    
+.calin3{
+    width: 24%;
+}
+
+
+
+/*
+h1{
+    max-width: 493px;
+    margin: auto;
+    z-index: 4;
+    position: relative;
+    margin-top: -654px;
+    margin-left: 110px;
+    color: white;
+    font-size: 99px;
+    font-family: "Ma fonte3";
+    right: -21px;
+}*/
+
+
+
+.imgside{
+    margin-bottom: 2%;
+    width: 92%;
+    height: 14rem;
+}
+
+.imgsides{
+    width: 92%;
+}
+
+
+.side{ 
+    padding-left: 2%;
+    margin-left: 23um;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.foot{
+    position: absolute;
+    margin-left: 2%;
+    width: 96%;
+    height: 10rem;
+    
+}
+
+footer{
+    width: 1523px; 
+    
+}
+
+
+html{
+     
+}
+     
+
